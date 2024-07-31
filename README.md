@@ -40,9 +40,13 @@ Make sure to change the paths to where you want to save and load the data, inclu
 ## Examples of output
 
 Here is a 2D UMAP plot with the mutual nearest neighbors in gut cells and hepatocytes highlighted.
+Yellow circles represent gut cells bearing the highest resemblance to hepatocytes, whereas purple circles
+denote hepatocytes bearing the highest resemblance to gut cells. The separate "island" in the bottom left
+corner mostly consists of hepatocytes at birth.
 ![MNN](Qiu_et_al/pics/liver_reembedded_2dumap.png)
 
-Here is a 2D UMAP plot with Gata6 expression levels highlighted.
+Here is a 2D UMAP plot with Gata6 expression levels highlighted. Gata6 is a master regulator
+dictating hepatic development.
 ![Gata6](Qiu_et_al/pics/liver_reembedded_2dumap_Gata6.png) 
 
 ## Authors
